@@ -9,8 +9,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "node --test dist/tests/*.test.js",
-    "prepare-data": "npx tsx scripts/prepare-data.ts",
+    "prepare": "tsc",
     "dev": "tsc && node dist/src/index.js"
   },
   "keywords": [

@@ -7,15 +7,7 @@ The book contains 732 readings — one morning and one evening entry for each da
 ## Install
 
 ```bash
-npm install -g daily-light
-```
-
-Or clone and build locally:
-
-```bash
-git clone https://github.com/gm5dna/daily-light.git
-cd daily-light
-npm install && npm run build && npm link
+npm install -g --install-links github:gm5dna/daily-light
 ```
 
 ## Usage

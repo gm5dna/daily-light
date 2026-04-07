@@ -8,8 +8,8 @@
     "daily-light": "dist/src/index.js"
   },
   "scripts": {
-    "build": "tsc",
-    "prepare": "tsc",
+    "build": "npx tsc",
+    "prepare": "npx tsc",
     "dev": "tsc && node dist/src/index.js"
   },
   "keywords": [

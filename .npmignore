@@ -1,0 +1,6 @@
+*.tgz
+*.js.map
+DailyLight-*.json
+DailyLight-*.epub
+Daily_Light-trueChristian.txt
+dist/tests/

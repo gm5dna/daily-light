@@ -1,0 +1,31 @@
+{
+  "name": "daily-light",
+  "version": "1.0.0",
+  "description": "Daily devotional readings from Daily Light on the Daily Path by Samuel Bagster (1829)",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "bin": {
+    "daily-light": "dist/src/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/tests/*.test.js",
+    "prepare-data": "npx tsx scripts/prepare-data.ts",
+    "dev": "tsc && node dist/src/index.js"
+  },
+  "keywords": [
+    "daily-light",
+    "devotional",
+    "bible",
+    "kjv",
+    "scripture"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}

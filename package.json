@@ -9,7 +9,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "prepare": "node ./node_modules/typescript/bin/tsc",
     "dev": "tsc && node dist/src/index.js"
   },
   "keywords": [

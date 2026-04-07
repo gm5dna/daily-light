@@ -1,0 +1,12 @@
+*.tgz
+scripts/Daily_Light_source.txt
+tests/
+*.test.js
+*.test.d.ts
+*.d.ts.map
+*.js.map
+DailyLight-*.json
+DailyLight-*.epub
+Daily_Light-trueChristian.txt
+.gitignore
+CLAUDE.md

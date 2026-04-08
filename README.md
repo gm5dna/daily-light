@@ -7,7 +7,7 @@ The book contains 732 readings — one morning and one evening entry for each da
 ## Install
 
 ```bash
-npm install -g --install-links github:gm5dna/daily-light
+npm install -g daily-light
 ```
 
 ## Usage

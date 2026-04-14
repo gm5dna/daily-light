@@ -1,8 +1,8 @@
 import type { Period } from "./types.js";
 
-export const isTTY = process.stdout.isTTY ?? false;
+const isTTY = process.stdout.isTTY ?? false;
 
-export const esc = (code: string) => (isTTY ? `\x1b[${code}m` : "");
+const esc = (code: string) => (isTTY ? `\x1b[${code}m` : "");
 export const RESET = esc("0");
 export const BOLD = esc("1");
 export const DIM = esc("2");

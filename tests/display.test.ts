@@ -1,6 +1,6 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
-import { wrapText } from "../src/display.js";
+import { wrapText } from "../src/display-utils.js";
 
 describe("wrapText", () => {
   it("does not wrap short text", () => {

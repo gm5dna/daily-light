@@ -3,3 +3,4 @@ node_modules/
 DailyLight-*.json
 DailyLight-*.epub
 Daily_Light-trueChristian.txt
+dist/
